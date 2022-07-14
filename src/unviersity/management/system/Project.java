@@ -333,12 +333,12 @@ public class Project extends JFrame implements ActionListener{
            
         }
         else if(msg.equals("Fee Structure")){
-//            new FeeStructure().setVisible(true);
-            ////calls the call the fee structure class
+            new FeeStructure().setVisible(true);
+            ////calls the fee structure class
            
         }
         else if(msg.equals("Student Fee Form")){
-//            new StudentFeeForm().setVisible(true);
+            new StudentFeeForm().setVisible(true);
            //calls the Student fee form class
         }
         else if(msg.equals("Notepad")){
