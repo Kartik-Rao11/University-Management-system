@@ -363,9 +363,9 @@ public class Project extends JFrame implements ActionListener{
         }else if(msg.equals("Student Attendance Detail")){
             new StudentAttendanceDetail().setVisible(true);
         }else if(msg.equals("Teacher Attendance Detail")){
-//            new TeacherAttendanceDetail().setVisible(true);
+            new TeacherAttendanceDetail().setVisible(true);
         }else if(msg.equals("Examination Details")){
-//            new ExaminationDetails().setVisible(true);
+            new ExaminationDetails().setVisible(true);
         }else if(msg.equals("Enter Marks")){
 //            new EnterMarks().setVisible(true);
         }
