@@ -323,12 +323,12 @@ public class Project extends JFrame implements ActionListener{
            
         }
         else if(msg.equals("Update Students")){
-//            new UpdateStudent().f.setVisible(true);
+            new UpdateStudent().f.setVisible(true);
             //calls the update student class
            
         }
         else if(msg.equals("Update Teachers")){
-//            new UpdateTeacher().f.setVisible(true);
+            new UpdateTeacher().f.setVisible(true);
             //calls the update teacher class
            
         }
@@ -367,7 +367,7 @@ public class Project extends JFrame implements ActionListener{
         }else if(msg.equals("Examination Details")){
             new ExaminationDetails().setVisible(true);
         }else if(msg.equals("Enter Marks")){
-//            new EnterMarks().setVisible(true);
+            new EnterMarks().setVisible(true);
         }
         
     }
