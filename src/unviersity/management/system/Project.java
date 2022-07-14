@@ -306,7 +306,7 @@ public class Project extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent ae){
         String msg = ae.getActionCommand();
         if(msg.equals("New Student Admission")){
-            //new AddStudent().f.setVisible(true);
+//            new AddStudent().f.setVisible(true);
             //calls the add student class
             
         }else if(msg.equals("New Faculty")){
@@ -314,31 +314,31 @@ public class Project extends JFrame implements ActionListener{
             //calls the add teacher class
             
         }else if(msg.equals("Student Details")){
-           //new StudentDetails().setVisible(true);
+//           new StudentDetails().setVisible(true);
             //calls the student details class
             
         }else if(msg.equals("Teacher Details")){
-            //new TeacherDetails().setVisible(true);
+//            new TeacherDetails().setVisible(true);
             //calls the teacher details class
            
         }
         else if(msg.equals("Update Students")){
-            //new UpdateStudent().f.setVisible(true);
+//            new UpdateStudent().f.setVisible(true);
             //calls the update student class
            
         }
         else if(msg.equals("Update Teachers")){
-            //new UpdateTeacher().f.setVisible(true);
+//            new UpdateTeacher().f.setVisible(true);
             //calls the update teacher class
            
         }
         else if(msg.equals("Fee Structure")){
-            //new FeeStructure().setVisible(true);
+//            new FeeStructure().setVisible(true);
             ////calls the call the fee structure class
            
         }
         else if(msg.equals("Student Fee Form")){
-            //new StudentFeeForm().setVisible(true);
+//            new StudentFeeForm().setVisible(true);
            //calls the Student fee form class
         }
         else if(msg.equals("Notepad")){
@@ -357,17 +357,17 @@ public class Project extends JFrame implements ActionListener{
         }else if(msg.equals("Exit")){
             System.exit(0);
         }else if(msg.equals("Student Attendance")){
-            //new StudentAttendance().setVisible(true); //to be made
+            new StudentAttendance().setVisible(true); 
         }else if(msg.equals("Teacher Attendance")){
-            //new TeacherAttendance().setVisible(true);//to be made
+            new TeacherAttendance().setVisible(true);
         }else if(msg.equals("Student Attendance Detail")){
-            //new StudentAttendanceDetail().setVisible(true);//to be made
+            new StudentAttendanceDetail().setVisible(true);
         }else if(msg.equals("Teacher Attendance Detail")){
-           // new TeacherAttendanceDetail().setVisible(true);//to be made
+//            new TeacherAttendanceDetail().setVisible(true);
         }else if(msg.equals("Examination Details")){
-            //new ExaminationDetails().setVisible(true);//to be made
+//            new ExaminationDetails().setVisible(true);
         }else if(msg.equals("Enter Marks")){
-            //new EnterMarks().setVisible(true);//to be made
+//            new EnterMarks().setVisible(true);
         }
         
     }
