@@ -201,7 +201,7 @@ class UpdateTeacher implements ActionListener{
                 con.s.executeUpdate(str);
                 JOptionPane.showMessageDialog(null,"successfully updated");
                 f.setVisible(false);
-//                new TeacherDetails().setVisible(true);
+                new TeacherDetails().setVisible(true);
             }catch(Exception e){
                 System.out.println("The error is:"+e);
             }

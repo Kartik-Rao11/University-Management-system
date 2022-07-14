@@ -306,7 +306,7 @@ public class Project extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent ae){
         String msg = ae.getActionCommand();
         if(msg.equals("New Student Admission")){
-//            new AddStudent().f.setVisible(true);
+            new AddStudent().f.setVisible(true);
             //calls the add student class
             
         }else if(msg.equals("New Faculty")){
@@ -314,11 +314,11 @@ public class Project extends JFrame implements ActionListener{
             //calls the add teacher class
             
         }else if(msg.equals("Student Details")){
-//           new StudentDetails().setVisible(true);
+           new StudentDetails().setVisible(true);
             //calls the student details class
             
         }else if(msg.equals("Teacher Details")){
-//            new TeacherDetails().setVisible(true);
+            new TeacherDetails().setVisible(true);
             //calls the teacher details class
            
         }
